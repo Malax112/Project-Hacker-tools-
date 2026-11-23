@@ -51,12 +51,12 @@ def build_report():
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Report Viewer")
+        self.title("Info Reader")
         self.geometry("640x520")
         self.resizable(False, False)
         self.configure(bg="#1c1c1c")
 
-        tk.Label(self, text="Report Viewer", bg="#1c1c1c", fg="white",
+        tk.Label(self, text="Report", bg="#1c1c1c", fg="white",
                  font=("Segoe UI", 24, "bold")).pack(pady=(16, 2))
 
         frame_text = tk.Frame(self, bg="#252526",
